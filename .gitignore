@@ -1,0 +1,5 @@
+ZFish_dataNgenes.npz
+__pycache__/
+*.sw?
+.DS_Store
+.ipynb_checkpoints/
