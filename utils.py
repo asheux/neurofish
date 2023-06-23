@@ -32,7 +32,7 @@ def pca(data):
     D = D[index]
     # arrange the eigenvectors according to the magnitude of the eigenvalues
     U = U[:, index]
-    return U, D
+    return U, D, index
 
 def correlation(first, second):
     # The Pearson correlation coefficient measures the linear relationship between two datasets.
